@@ -5,7 +5,7 @@
     "description": "To help one focus and look at less YouTube",
     "content_scripts": [
         {
-            "matches": ["https://www.youtube.com/*"],
+            "matches": ["https://*.google.com/*","https://*.youtube.com/*", "https://www.facebook.com/*", "https://www.tiktok.com/*"],  
             "js": ["./main.js"]
         }
     ]
