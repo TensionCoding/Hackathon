@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "Focus",
+    "version": "1.0",
+    "description": "To help one focus and look at less YouTube",
+    "content_scripts": [
+        {
+            "matches": ["https://www.youtube.com/*"],
+            "js": ["./main.js"]
+        }
+    ]
+}
